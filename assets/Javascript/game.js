@@ -9,7 +9,7 @@ var products = [
   "shampoo",
   "conditioner",
   "lotion",
-  "multi surface cleaner"
+  "pacifier"
 ];
 //ScoreBoard
 var wins = "";
@@ -53,9 +53,9 @@ function start() {
 
   document.querySelector("#guessesleft").innerHTML = GuessesLeft;
 
-  document.querySelector("#wordguess").innerHTML = correctGuess.join(" ");
+  // document.querySelector("#wordguess").innerHTML = correctGuess.join(" ");
 
-document.querySelector("#correctguess").innerHTML = correctGuess.join(" ");
+document.querySelector("#correctguesses").innerHTML = correctGuess.join(" ");
   //clear guesses from previous game
 
   document.querySelector("#wrongguesses").innerHTML = wrongGuess.join(" ");
